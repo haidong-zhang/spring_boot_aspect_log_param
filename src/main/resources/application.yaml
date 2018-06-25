@@ -1,0 +1,11 @@
+server:
+ port: 3030
+ servlet-path: /aspect_log
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization: 
+     indent-output: true
+logging:
+ level:
+  com.haidong: debug     
